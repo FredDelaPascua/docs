@@ -6,7 +6,7 @@
 
 The goal in this project is to use ***GitHub Actions*** to automatically run terraform-docs on every push or PR to any specified branch, in that way you can standarize terraform `readme.md` files and generate or verified that are updated.
 
-## Resoruces
+## Resources
 
 There is already a GH action implemented along terraform-docs just to accomplish this purpose.
 
