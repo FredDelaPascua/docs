@@ -41,7 +41,7 @@ At the end it should look like this:
         - uses: actions/checkout@v2
             with:
             ref: ${{ github.event.pull_request.head.ref }}
-        - name: make env bar
+        - name: make env var
             run: |
             string="dirs_list=";for dir in $(ls -p | grep / | sed 's|/$||'); do ls "$dir/"*".tf" &>/dev/null && string+="$dir",; done; echo $string | sed 's|,$||' >>$GITHUB_ENV
         - name: Render terraform docs and push changes back to PR
