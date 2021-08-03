@@ -53,5 +53,5 @@ At the end it should look like this:
             git-push: "true"
             git-commit-message: "Automated README.md generation"% 
 
-*Note:* You can noticed that it is using just one `terraform-docs-yml` for all the modules.
+*Note:* You can noticed that it is using just one `terraform-docs.yml` for all the modules.
 
